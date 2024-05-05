@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyBeauty - Beauty Products</title>
+    <link rel="stylesheet" href="landing.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">
+                <img src="beautylogo.jpg" alt="MyBeauty Logo">
+            </a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link active-link">Home</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#products" class="nav__link">Products</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#about" class="nav__link">About</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#contact" class="nav__link">Contact</a>
+                    </li>
+                </ul>
+
+                <div class="nav__close" id="nav-close">
+                    <i class="ri-close-line"></i>
+                </div>
+            </div>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <i class="ri-function-line"></i>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main">
+        <section class="home section" id="home">
+            <div class="home__container container grid">
+                <div class="home__data">
+                    <h1 class="home__title">Discover Your Natural Beauty</h1>
+                    <p class="home__description">Elevate your beauty routine with our premium collection of skincare and makeup products.</p>
+                    <a href="#products" class="button button--flex">
+                        <span>Explore Products</span>
+                        <i class="ri-arrow-right-s-line button__icon"></i>
+                    </a>
+                </div>
+
+                <div>
+                    <img src="download.jpeg" alt="Beauty Products" class="home__img">
+                </div>
+            </div>
+        </section>
+
+        <section class="products section" id="products">
+            <div class="products__container container grid">
+                <!-- Product cards go here -->
+            </div>
+        </section>
+
+        <section class="about section" id="about">
+            <div class="about__container container grid">
+                <div class="about__data">
+                    <h2 class="section__title section__title-gradient">About Us</h2>
+                    <p class="about__description">MyBeauty is dedicated to providing high-quality beauty products that enhance your natural beauty. Our products are carefully formulated with premium ingredients to nourish and revitalize your skin.</p>
+                    <a href="#contact" class="button button--flex">
+                        <span>Contact Us</span>
+                        <i class="ri-arrow-right-s-line button__icon"></i>
+                    </a>
+                </div>
+
+                <div>
+                    <img src="aboutus.jpeg" alt="About Us" class="about__img">
+                </div>
+            </div>
+        </section>
+
+        <section class="contact section" id="contact">
+            <div class="contact__container container grid">
+                <div class="contact__data">
+                    <h2 class="section__title section__title-gradient">Contact Us</h2>
+                    <p class="contact__description">Have any questions or inquiries? Feel free to reach out to us!</p>
+                    <a href="mailto:info@mybeauty.com" class="contact__email">info@mybeauty.com</a>
+                </div>
+
+                <form action="#" class="contact__form">
+                    <input type="text" placeholder="Name" class="contact__input">
+                    <input type="email" placeholder="Email" class="contact__input">
+                    <textarea placeholder="Message" class="contact__input"></textarea>
+                    <button type="submit" class="button button--flex">
+                        <span>Send Message</span>
+                        <i class="ri-send-plane-line button__icon"></i>
+                    </button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer section">
+        <div class="footer__container container grid">
+            <a href="#" class="footer__logo">
+            </a>
+
+            <ul class="footer__links">
+                <li><a href="#home" class="footer__link">Home</a></li>
+                <li><a href="#products" class="footer__link">Products</a></li>
+                <li><a href="#about" class="footer__link">About</a></li>
+                <li><a href="#contact" class="footer__link">Contact</a></li>
+            </ul>
+
+            <div class="footer__social">
+                <a href="#" class="footer__social-link"><i class="ri-facebook-fill"></i></a>
+                <a href="#" class="footer__social-link"><i class="ri-instagram-line"></i></a>
+                <a href="#" class="footer__social-link"><i class="ri-twitter-line"></i></a>
+            </div>
+        </div>
+
+        <p class="footer__copy">&#169; 2024 MyBeauty. All rights reserved.</p>
+    </footer>
+
+    <a href="#" class="scrollup" id="scroll-up">
+        <i class="ri-arrow-up-s-line scrollup__icon"></i>
+    </a>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
